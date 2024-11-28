@@ -65,3 +65,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "foreman", "~> 0.88.1"
+
+gem 'dartsass-rails'
