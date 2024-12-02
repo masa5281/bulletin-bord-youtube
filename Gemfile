@@ -44,6 +44,7 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+# 開発環境とテスト環境の両方で有効なGem
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
@@ -69,3 +70,5 @@ end
 gem "foreman", "~> 0.88.1"
 
 gem 'dartsass-rails'
+
+gem 'ostruct'
